@@ -1,0 +1,1042 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ehsvk" at "2026-04-03T15:14:12.0195673Z"
+Built from '6000.4/staging' branch; Version is '6000.4.0f1 (8cf496087c8f) revision 9237654'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) Core' Language: 'ko' Physical Memory: 23850 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-04-03T15:14:12Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.4.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/ehsvk/OneDrive/Documents/GitHub/2DMetaballs
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+49818
+-licensingIpc
+LicenseClient-ehsvk
+-force-d3d12
+-job-worker-count
+5
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/ehsvk/OneDrive/Documents/GitHub/2DMetaballs
+C:/Users/ehsvk/OneDrive/Documents/GitHub/2DMetaballs
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [97872]  Target information:
+
+Player connection [97872]  * "[IP] 172.30.1.48 [Port] 0 [Flags] 2 [Guid] 1426236369 [EditorId] 1426236369 [Version] 1048832 [Id] WindowsEditor(7,Àå½Ã¿µ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [97872] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [97872] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Initialize engine version: 6000.4.0f1 (8cf496087c8f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/ehsvk/OneDrive/Documents/GitHub/2DMetaballs/Assets
+Forcing GfxDevice: Direct3D 12
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        AMD Radeon(TM)  840M Graphics (ID=0x1114)
+    Vendor:          ATI
+    VRAM:            11925 MB
+    App VRAM Budget: 11616 MB
+    Driver:          32.0.22024.3004
+    Unified Memory Architecture
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56996
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-ehsvk"
+[Licensing::IpcConnector] LicenseClient-ehsvk channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ehsvk-6000.4.0" at "2026-04-03T15:14:14.462914Z"
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              af3529b42c734634a1dcc8ac05b93c7f
+  Correlation Id:          d5cd0735bf3fd5ac89bb5d2d4cfe63b0
+  External correlation Id: 3977599600628585215
+  Machine Id:              q7K2ormkBZsWhpiPo+okKp1aUCk=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-ehsvk-6000.4.0" (connect: 0.00s, validation: 0.00s, handshake: 2.19s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ehsvk-6000.4.0-notifications" at "2026-04-03T15:14:16.6558228Z"
+[Licensing::Module] Licensing Background thread has ended after 4.64s
+[Licensing::Module] Licensing is initialized (took 3.25s).
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 14568949629419-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/PlaybackEngines/VisionOSPlayer/UnityEditor.VisionOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/PlaybackEngines/AppleTVSupport/UnityEditor.AppleTV.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 3.264859 seconds.
+Native extension for LinuxStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for AppleTV target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 276 ms
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Failed to load: C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
+Native extension for VisionOS target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.677 seconds
+Domain Reload Profiling: 4556ms
+	BeginReloadAssembly (176ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (3349ms)
+	LoadAllAssembliesAndSetupDomain (281ms)
+		LoadAssemblies (173ms)
+		AnalyzeDomain (268ms)
+			TypeCache.Refresh (266ms)
+				TypeCache.ScanAssembly (249ms)
+	FinalizeReload (678ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (424ms)
+			BeforeProcessingInitializeOnLoad (69ms)
+			ProcessInitializeOnLoadAttributes (83ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Native extension for LinuxStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Failed to load: C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
+Native extension for VisionOS target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.293 seconds
+Domain Reload Profiling: 528ms
+	BeginReloadAssembly (141ms)
+		DisableScriptedObjects (4ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (27ms)
+		LoadAssemblies (75ms)
+		AnalyzeDomain (18ms)
+			TypeCache.Refresh (15ms)
+				TypeCache.ScanAssembly (8ms)
+	FinalizeReload (293ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			BeforeProcessingInitializeOnLoad (77ms)
+			ProcessInitializeOnLoadAttributes (63ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (5ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 152 unused Assets / (280.7 KB). Loaded Objects now: 792.
+Memory consumption went from 75.2 MB to 74.9 MB.
+Total: 3.359600 ms (FindLiveObjects: 0.063700 ms CreateObjectMapping: 0.008100 ms MarkObjects: 3.108600 ms  DeleteObjects: 0.177000 ms)
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Native extension for LinuxStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Failed to load: C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
+Native extension for VisionOS target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.367 seconds
+Domain Reload Profiling: 620ms
+	BeginReloadAssembly (154ms)
+		DisableScriptedObjects (4ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (20ms)
+		LoadAssemblies (83ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (3ms)
+			BuildScriptInfoCaches (4ms)
+	FinalizeReload (367ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			BeforeProcessingInitializeOnLoad (84ms)
+			ProcessInitializeOnLoadAttributes (78ms)
+			ProcessInitializeOnLoadMethodAttributes (52ms)
+			AfterProcessingInitializeOnLoad (8ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 150 unused Assets / (251.4 KB). Loaded Objects now: 792.
+Memory consumption went from 75.3 MB to 75.1 MB.
+Total: 5.191700 ms (FindLiveObjects: 0.171100 ms CreateObjectMapping: 0.015500 ms MarkObjects: 4.855200 ms  DeleteObjects: 0.147900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 607366.737747 seconds.
+  path: Assets/Scripts
+  importAddress: Guid(89ffa3e35173342028ec3c9d80fe026c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(89ffa3e35173342028ec3c9d80fe026c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'b562916793d6c0086ccaedf88bb40397') in 0.0056236 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2c22ed7f06bcfc17a04c1f680af812c2 DependenciesID=7e0aa4dd898df73817cfc71698d49e7a StaticDependenciesID=2fb49aa9f264f56fb30dff19dd0214d6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.637493 seconds.
+  path: Assets/PostProcessing
+  importAddress: Guid(cc533d9d9334844e09be7d45f255b377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PostProcessing using Guid(cc533d9d9334844e09be7d45f255b377) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '46186a165ec2e100458248f76662cea1') in 0.0006383 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6469f641f3e408d0837e95bcdb5f5d72 DependenciesID=6edc573920beac066d73186ce1dad70d StaticDependenciesID=7eefb3159b0308607574f7f1a5d98379 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.089333 seconds.
+  path: Assets/Graphics
+  importAddress: Guid(22a68e906312b4b58a313b91643a5c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics using Guid(22a68e906312b4b58a313b91643a5c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '6d7966b363732b3f84ec75c2ca74661f') in 0.0007274 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e58839e94521e497772cbd40217ef925 DependenciesID=e9dc7629c2fd52e7831b5804ef46eb0a StaticDependenciesID=eeb6ceb96c424c472525b1b8e3843115 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.268179 seconds.
+  path: Assets/Graphics/Circle.png
+  importAddress: Guid(ce10bacf5483af74a8ccd0712efd46e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Circle.png using Guid(ce10bacf5483af74a8ccd0712efd46e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '788be6fa703b458696f9bd4e585f74b2') in 0.0975528 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0fc3d2128db6b14d6a711e1723419073 DependenciesID=e76b5719cddaa6516e4eb0c405d070b9 StaticDependenciesID=6195933ceeca72626c12ef54935bb501 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Graphics/MetaMat.mat
+  importAddress: Guid(d5c0106e08a52ab4c89dabe7772d546e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/MetaMat.mat using Guid(d5c0106e08a52ab4c89dabe7772d546e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '287ea7dae4380e89c3f4f78bcd9ef997') in 0.0643945 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=88f5eedafb2a3e6e7418d5663720a2d2 DependenciesID=ee5ccfe89fa6c4c7d7b5c732dcafeb31 StaticDependenciesID=b0a4042e243cd3478b76bd468997d6db 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Native extension for LinuxStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Failed to load: C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
+Native extension for VisionOS target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.378 seconds
+Domain Reload Profiling: 641ms
+	BeginReloadAssembly (158ms)
+		DisableScriptedObjects (3ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (20ms)
+		LoadAssemblies (89ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (3ms)
+			BuildScriptInfoCaches (4ms)
+	FinalizeReload (379ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			BeforeProcessingInitializeOnLoad (89ms)
+			ProcessInitializeOnLoadAttributes (82ms)
+			ProcessInitializeOnLoadMethodAttributes (59ms)
+			AfterProcessingInitializeOnLoad (8ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 150 unused Assets / (251.4 KB). Loaded Objects now: 837.
+Memory consumption went from 76.8 MB to 76.5 MB.
+Total: 5.693600 ms (FindLiveObjects: 0.072100 ms CreateObjectMapping: 0.007500 ms MarkObjects: 5.460300 ms  DeleteObjects: 0.152600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 34.617531 seconds.
+  path: Assets/Scripts/MetaballCameraEffect.cs
+  importAddress: Guid(34382083ad114a07d000fbfb8d76c639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MetaballCameraEffect.cs using Guid(34382083ad114a07d000fbfb8d76c639) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '47a49bd4c3a064a5e305f1ca1d94dbfe') in 0.0017828 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=991712551dbaefdb99a6cb7b90f86688 DependenciesID=3dee9ed294b12e0991903766ba427b92 StaticDependenciesID=1b5336e9b6c44b17eacdb7cec33d8089 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.134258 seconds.
+  path: Assets/Scripts/Spawner.cs
+  importAddress: Guid(a61b2f131f7d2b84d8fe6dd14891c26b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Spawner.cs using Guid(a61b2f131f7d2b84d8fe6dd14891c26b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '4336a7de04621767dc6ef4da648668fc') in 0.0006727 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=da16e9ce69d55369dff74b19588c96a9 DependenciesID=21ed1a18708186bc6ed6e4c12b470d5e StaticDependenciesID=17df3bcf362a7b2893cfdcd8e886f797 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.999050 seconds.
+  path: Assets/Graphics/BlurEffectConeTaps.shader
+  importAddress: Guid(57e6deea7c2924e22a5138e2b70bb4dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/BlurEffectConeTaps.shader using Guid(57e6deea7c2924e22a5138e2b70bb4dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '92334d10616ec2a0840a5c8d3c5333cb') in 0.0116351 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fb85bbb15464f7cc3e15f8b45131f675 DependenciesID=c914ccaa64ee8891cf9459ae29eb4ffd StaticDependenciesID=66c387e7846f259bb8ba9c53677d930a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 119.201062 seconds.
+  path: Assets/Graphics/Unlit-AlphaTest.shader
+  importAddress: Guid(3f2473e836231f340af81c4989f12061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Unlit-AlphaTest.shader using Guid(3f2473e836231f340af81c4989f12061) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '58534e3c466a877ac33c101ac3f8196b') in 0.0010829 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f76f0c40ef649ff19e6512abb9d48eb0 DependenciesID=7831790c586f514f4c3f24e59cd6fa8a StaticDependenciesID=ac4d6cb1e5f1f1aeef62633b1cac2cba 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Native extension for LinuxStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Failed to load: C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
+Native extension for VisionOS target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.263 seconds
+Domain Reload Profiling: 495ms
+	BeginReloadAssembly (147ms)
+		DisableScriptedObjects (7ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (17ms)
+		LoadAssemblies (81ms)
+		AnalyzeDomain (7ms)
+			TypeCache.Refresh (3ms)
+			BuildScriptInfoCaches (3ms)
+	FinalizeReload (263ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			BeforeProcessingInitializeOnLoad (69ms)
+			ProcessInitializeOnLoadAttributes (58ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (6ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 150 unused Assets / (251.4 KB). Loaded Objects now: 837.
+Memory consumption went from 76.8 MB to 76.5 MB.
+Total: 3.126100 ms (FindLiveObjects: 0.077200 ms CreateObjectMapping: 0.009200 ms MarkObjects: 2.949800 ms  DeleteObjects: 0.088400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 258.994960 seconds.
+  path: Assets/PostProcessing/Runtime
+  importAddress: Guid(4b79d54138d9d1a498085393504c7d02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PostProcessing/Runtime using Guid(4b79d54138d9d1a498085393504c7d02) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'c79995678d882a6d2d526fba731c14ff') in 0.0018846 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=33fdfd3715bd2b79ff0510dd28559fb0 DependenciesID=6c3b67932ddf8ebbb7eda50e0a0ae79d StaticDependenciesID=059f6fb1ab4750f4a5f9797304af23b4 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.867970 seconds.
+  path: Assets/PostProcessing/Utilities
+  importAddress: Guid(478d405e757b044f2bd9c4b777026b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PostProcessing/Utilities using Guid(478d405e757b044f2bd9c4b777026b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'b5981be7a37ae7750137c10ae6f544be') in 0.0009554 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=90f5ad0bb67c74670d44ebbcccc14b8e DependenciesID=94cde997260df716783e870905ed9fc3 StaticDependenciesID=2e533ab0b051c6afaac37c5a0b129196 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.960898 seconds.
+  path: Assets/PostProcessing/Editor
+  importAddress: Guid(e0e418747b892364db5c5f4451e67ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PostProcessing/Editor using Guid(e0e418747b892364db5c5f4451e67ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'a40a2f01ee5114d5bf91c2ee085a1d99') in 0.0007576 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=444b8e454e326ddd883bc0b95e978444 DependenciesID=27367b6a8cc1dde920ec134e6c293316 StaticDependenciesID=eebb0ccd25d1f3ee9e92dcf3d8689bdc 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.427589 seconds.
+  path: Assets/PostProcessing/Editor Resources
+  importAddress: Guid(83715878d3a8db441aa5636641db69a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PostProcessing/Editor Resources using Guid(83715878d3a8db441aa5636641db69a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'a7f7562e618860b086b3490bf473bc06') in 0.0007113 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cf7f5129c8520f9607730a379b09c101 DependenciesID=4f6efee3479aa8e4b3dbbd5ff18e06e5 StaticDependenciesID=c502b8d15ce96180567555d307f0f114 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.829606 seconds.
+  path: Assets/PostProcessing/Editor Resources/Monitors
+  importAddress: Guid(e7358848dd8737c459f4636f1c075835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PostProcessing/Editor Resources/Monitors using Guid(e7358848dd8737c459f4636f1c075835) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'e50a101200371b379c3187019d805b14') in 0.000748 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=680bd692fa94d2104ff49770929a2881 DependenciesID=8cdba69a2b188d61ae70c71f8436f486 StaticDependenciesID=e9630c54c8c0b03d72eba0ee7c6fdd94 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.069654 seconds.
+  path: Assets/PostProcessing/Editor Resources/Monitors/HistogramCompute.compute
+  importAddress: Guid(51b7e4b4448c98f4a849081110fd6212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PostProcessing/Editor Resources/Monitors/HistogramCompute.compute using Guid(51b7e4b4448c98f4a849081110fd6212) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'c8a14552e24f626ce2c5161e589bff11') in 0.0134953 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=55906addf5962f4e0726b44bfe18b1da DependenciesID=c7c07c99c834a7a7ada59ecec0f736a1 StaticDependenciesID=f3b2e4caafb69b780ea32ea91bf4c48a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PostProcessing/Editor Resources/Monitors/WaveformCompute.compute
+  importAddress: Guid(9d9b886f7a8fe7b4baf56624c42e3420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PostProcessing/Editor Resources/Monitors/WaveformCompute.compute using Guid(9d9b886f7a8fe7b4baf56624c42e3420) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '7e7de5464c7524122d7c2b365a1934b5') in 0.0014612 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d4c13eb87b67fe85b05d89a20f541372 DependenciesID=2f0021dd0a403c0c6cf43303f23e9a52 StaticDependenciesID=c999983a763faeea4722ac5a824bff46 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.153690 seconds.
+  path: Assets/PostProcessing/Resources
+  importAddress: Guid(52380717b4884c04ebc31c46dda84909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PostProcessing/Resources using Guid(52380717b4884c04ebc31c46dda84909) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '79875ddc813f435b2173ecab8d876ab7') in 0.0005591 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=605d2629d9554b94835f3d8b4f893b0b DependenciesID=b9c239488d264973bdac54616908f3a5 StaticDependenciesID=e3cbbb9a661bfd1f8d88ca15d7aacdb4 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.100338 seconds.
+  path: Assets/PostProcessing/Resources/Shaders
+  importAddress: Guid(e039bcc30d13c9341aa224f4e89f21b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PostProcessing/Resources/Shaders using Guid(e039bcc30d13c9341aa224f4e89f21b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '921e1f3a8071c59b41cdb21076fe97f8') in 0.0007136 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b65c27054fb253f66375c68a6eb6ac6e DependenciesID=d63e60975b2aee3ae4f233a2eb88bd29 StaticDependenciesID=e625b7439785ab5fec1ccb69e402cfef 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.094689 seconds.
+  path: Assets/PostProcessing/Resources/Shaders/ACES.cginc
+  importAddress: Guid(b8d56fc3449f426408c23c723b58d7b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PostProcessing/Resources/Shaders/ACES.cginc using Guid(b8d56fc3449f426408c23c723b58d7b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '233214f3d22360611cf4321df5d90fb2') in 0.00124 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5a5c60f146d196386a11f40d6e6d4361 DependenciesID=eb7e264f5bc680ca7a38ec394c682bfd StaticDependenciesID=06477d2816bf214b95f3ee4cc53622e2 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000516 seconds.
+  path: Assets/PostProcessing/Resources/Shaders/Bloom.cginc
+  importAddress: Guid(7d1f4dd94c8e6e940b0730076ea7d6d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PostProcessing/Resources/Shaders/Bloom.cginc using Guid(7d1f4dd94c8e6e940b0730076ea7d6d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '18f9cd693c5fed053d13ecf1a8f0d2e9') in 0.000715 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5c9bc83ff21e30a386b9f033bc6b4946 DependenciesID=f4434a8259a1259122379790af2322ef StaticDependenciesID=4d0d6cff8dbb5036ffad4ee311987eda 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008409 seconds.
+  path: Assets/PostProcessing/Resources/Shaders/Common.cginc
+  importAddress: Guid(eb88496804341c648b32a75843d92ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PostProcessing/Resources/Shaders/Common.cginc using Guid(eb88496804341c648b32a75843d92ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'a3199cec98e1dfa40b920a7d35179536') in 0.0014046 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f59018ab03ebcd5650c0eb48e260ee12 DependenciesID=983dcec42dd39fcb95ead11ba627d886 StaticDependenciesID=18ce48c9bfcfba97c3ec6e09dab0be0e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/PostProcessing/Resources/Shaders/EyeHistogram.compute
+  importAddress: Guid(e213272ad8ff213409a6e13b5c26b4e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PostProcessing/Resources/Shaders/EyeHistogram.compute using Guid(e213272ad8ff213409a6e13b5c26b4e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '4c7a79574b760e1ecec6f995f10897ad') in 0.0014109 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=be23390402ac8d9e54dc0b2c31243143 DependenciesID=bb6f6c07c2b2dc6857dc86653dd21135 StaticDependenciesID=ec222df53a411d10de9c0864bab91279 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PostProcessing/Resources/Shaders/Tonemapping.cginc
+  importAddress: Guid(0a999e641c982a14d9c68dfd53a98afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PostProcessing/Resources/Shaders/Tonemapping.cginc using Guid(0a999e641c982a14d9c68dfd53a98afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '69ba92cadf10b987f24a86ddb02a576b') in 0.0017949 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=046d6e80e29a7210c63c31a77c183f6b DependenciesID=44807e5cb63b6695cb452042c048ffea StaticDependenciesID=16a4ff5beea75cbd2142e97df89bdb55 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/PostProcessing/Resources/Shaders/UberSecondPass.cginc
+  importAddress: Guid(b6e42614562a56445ba4b5d90301f06f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PostProcessing/Resources/Shaders/UberSecondPass.cginc using Guid(b6e42614562a56445ba4b5d90301f06f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '8c60d6683e9faf9219ea05a63182386b') in 0.0013582 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8a401700519b3914223175ab49836f61 DependenciesID=3245add04a0e533d995afba10b1a9100 StaticDependenciesID=ad9e044a54128b4e6c6e09b75754e968 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/PostProcessing/Resources/Shaders/FXAA3.cginc
+  importAddress: Guid(613b4036a9f55c34fb054bde02455e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PostProcessing/Resources/Shaders/FXAA3.cginc using Guid(613b4036a9f55c34fb054bde02455e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'e80ed22542d80c3800efeb1a973d3030') in 0.0009412 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=aa9f0ecb399d0e3bf9ddeea5a6dd03b1 DependenciesID=ad623d9a289238a5ec9a04d830bd8456 StaticDependenciesID=f9a9a49d65c37a7849448281d877e714 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/PostProcessing/Resources/Shaders/MotionBlur.cginc
+  importAddress: Guid(c83956915580e42489479d2a109470ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PostProcessing/Resources/Shaders/MotionBlur.cginc using Guid(c83956915580e42489479d2a109470ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '9b54fdbfe5505b284f8e2250a8291062') in 0.0007997 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2396b3919aa8d9d379e73d0ec8656f96 DependenciesID=d7208cba4dda101594bc7cc36f734bfe StaticDependenciesID=a012d903456777c1dd130900a370c720 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.286016 seconds.
+  path: Assets/PostProcessing/Resources/Bluenoise64
+  importAddress: Guid(2be7cf05ee8fb17438022d4869299900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PostProcessing/Resources/Bluenoise64 using Guid(2be7cf05ee8fb17438022d4869299900) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '70b6cbb1c4a4bf5771188ac7a5906957') in 0.0007093 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9fc2f24e6e865a851febb84537bc9a12 DependenciesID=037b6f872e1bcffb7059446a496a462c StaticDependenciesID=a9898bda7353ca45f6e98ff89f240184 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.072219 seconds.
+  path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_0.png
+  importAddress: Guid(50b54341495978843a6f85583ed4417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_0.png using Guid(50b54341495978843a6f85583ed4417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '6cd9ce942f452d609a0b7ff6c03f7236') in 0.0562633 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0134f90c6b1235bca608cd77339efb15 DependenciesID=05bda78228e9759c5d6539327774ad65 StaticDependenciesID=12aed79cde7c52aa1d21a4e1d95dafc9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_7.png
+  importAddress: Guid(3ac02e7e783571c468f9c086d2384ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_7.png using Guid(3ac02e7e783571c468f9c086d2384ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'c431979d333b6786a785fb6dbeff9eff') in 0.0167399 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7d3f02c779c265db0c923f2b6e02bdf2 DependenciesID=90b176199768e89e44bbf6027b7bc1e3 StaticDependenciesID=bd7b373c534550cc453c8eb1ee55b044 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_22.png
+  importAddress: Guid(df01d03f056c6f445b4b8a0ae054207c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_22.png using Guid(df01d03f056c6f445b4b8a0ae054207c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'dbce94e59dfd9fa19d1b391bc483c209') in 0.0152797 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1d9acd65979a157d54f96f96681d34af DependenciesID=97808b7b1b015e9f4bf7b4bd233f2f40 StaticDependenciesID=982b2458387c5d6cb948352c93290834 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_4.png
+  importAddress: Guid(6fa5cf178eaaa5f42b820f636bb6e0bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_4.png using Guid(6fa5cf178eaaa5f42b820f636bb6e0bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '20a0cefed64294accf8bf4a2bb6d9f66') in 0.015203 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6d90b06a391f41cf1697b5ff2a003510 DependenciesID=75f84a5f9cf0bb4b929d9c6e04fa8364 StaticDependenciesID=05dc29b7a33edd092672255762292aed 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_16.png
+  importAddress: Guid(153f7d6dfbe713d4884df0f1e243ba92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_16.png using Guid(153f7d6dfbe713d4884df0f1e243ba92) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '9786502f053ab6117df59410b11ce88b') in 0.0162278 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4e6aeb0994cfd6719bedb3194f464bc0 DependenciesID=9e38403b63a1662b85ce93baaa04b25b StaticDependenciesID=19d99751fa8a360842c56502d319bddb 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_18.png
+  importAddress: Guid(74aca53eb7273624baffc2bf5e5cc173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_18.png using Guid(74aca53eb7273624baffc2bf5e5cc173) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'ad083f2d75406cb4138b3b9b999d911a') in 0.0176714 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c53073d716eed1a6cb9e951ac93a3611 DependenciesID=97ba88eaa83aacffabb3fff2af7ef8af StaticDependenciesID=f8271ef4d709795a887209c54659075a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_24.png
+  importAddress: Guid(32c6a5f7143b86c44bd5cdee2ff3f8ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_24.png using Guid(32c6a5f7143b86c44bd5cdee2ff3f8ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'a60406a43d1af95ec3eae65143632e7e') in 0.0167228 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3abbc148d5f28937e20f8452ee1fb478 DependenciesID=f7f5e027d1455320ab7b296da3a6d099 StaticDependenciesID=3ad9eab26d2683b860214f277311bf98 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_21.png
+  importAddress: Guid(b7f000750830ddb4bbc80065b9314ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_21.png using Guid(b7f000750830ddb4bbc80065b9314ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '1b9545fc216ae8dae60543f6e6aa3fee') in 0.0169665 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b1c0641af85d9261a579b0c25efd04b3 DependenciesID=8e3ab306454ab98e11617cb6ce61d5c1 StaticDependenciesID=7232ee45d23d9e233e19e0cd0ef105d1 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_12.png
+  importAddress: Guid(980acadb960f8424c94307ec0e585b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_12.png using Guid(980acadb960f8424c94307ec0e585b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '73555739b24703abb83d119601c27420') in 0.0174212 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=08c01c452cf663ec79fb1530fb28e5c0 DependenciesID=c0075da1e627f09acf75af1c7110415c StaticDependenciesID=3d4e36b669f20a766a83ee31cafccc36 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_2.png
+  importAddress: Guid(a469f920b21fc7c4fb5b950917ce2fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_2.png using Guid(a469f920b21fc7c4fb5b950917ce2fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'c88b4bc93413d920ddb4e4d07c1c1e68') in 0.0165207 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=867c116b838da4e934a597fb0f05de6e DependenciesID=c993cd8dc824a268c582177671b14294 StaticDependenciesID=5c22a0a2c86d5ea4e42f1aae9c26262c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_10.png
+  importAddress: Guid(afe1e502240079342a0a980484b6da8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_10.png using Guid(afe1e502240079342a0a980484b6da8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '66567a83c36a9ff6344ee4d4e7ee9f82') in 0.0180715 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bfa99749930658560d2ed3c1df8dac47 DependenciesID=484378249460f0bf4f4133e0a7d61a18 StaticDependenciesID=815490642e29adcf92161d6cd7b4cc34 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_27.png
+  importAddress: Guid(bdd06fb88ef36ed4a85dd506352c2d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_27.png using Guid(bdd06fb88ef36ed4a85dd506352c2d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'c9a3d4ef85d3ccb6ab2d7c8c89421deb') in 0.0161381 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0438cd8f8061d09b0b127476e95cdbbc DependenciesID=883dec4f9d7b56954227a59d1bb615d2 StaticDependenciesID=ae40aafaf4527eb27cbaf92c3875fcf0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_25.png
+  importAddress: Guid(f4b8ab78b57749d4e96d36f6d8a395d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_25.png using Guid(f4b8ab78b57749d4e96d36f6d8a395d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'faf791d0032077716ddd7da1360757f1') in 0.0169676 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0f15bb3cd39dc58a792c1c9411a9761c DependenciesID=d4e32cc3d14b3f23d06966d8cf359bb7 StaticDependenciesID=78864949d627d86b8ec6ab8df250387f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_13.png
+  importAddress: Guid(68613e6a221be1a4b9f31d7fa1c2d1bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_13.png using Guid(68613e6a221be1a4b9f31d7fa1c2d1bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '552a8022ab6a7b6187c6bebba945543c') in 0.0168796 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1e577ee07df214c657011f2aa1f0b266 DependenciesID=0d8249b19ee59810026ab53680dbf96e StaticDependenciesID=432f96c02337bb7923a6d6bb065e4b8c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.467865 seconds.
+  path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_28.png
+  importAddress: Guid(02c0a84bd64c6f044954d8bde9b46ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_28.png using Guid(02c0a84bd64c6f044954d8bde9b46ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '72e74e9a40882255428289a63da8aa79') in 0.0168799 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ae40a53ff7baaf23f996324e228370d2 DependenciesID=63f003aa8767d7734f0b9c3a42142e85 StaticDependenciesID=aa4afe0f6f118e974c478162c070cd87 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_32.png
+  importAddress: Guid(87a5e40cc271ea648b583616f6ebe7fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_32.png using Guid(87a5e40cc271ea648b583616f6ebe7fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '10ccd1dd5eae4c65f37e04e0874a81cd') in 0.0171481 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e600616ca4e3cade0ea2fc410cbef138 DependenciesID=9b71de6dca957e91ea45e834cd8d0109 StaticDependenciesID=3dad2d2639c920bbb1a9269cbf63a85c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_39.png
+  importAddress: Guid(547dbd5f858c74047ba3f213e4408307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_39.png using Guid(547dbd5f858c74047ba3f213e4408307) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'ef28690994f55d1bd206f305251141e2') in 0.016336 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f14409df35ebe8fab2e5572bd9d8721d DependenciesID=888609d5b9abeb92e7ac058a0fa2c1be StaticDependenciesID=5d84b6b73114413e5eeca76daaf21c9f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_36.png
+  importAddress: Guid(351e95d0e20a54849bd4ce5f9b498934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_36.png using Guid(351e95d0e20a54849bd4ce5f9b498934) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'ef269fb993569786bf4c4474f5d588d6') in 0.0167113 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fedd105b021e2281818a6f4e0b01d12b DependenciesID=62ef3b53820cbc80654ab1b77de7b652 StaticDependenciesID=ab3c2f55685a98a8c42428638024a070 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_35.png
+  importAddress: Guid(0a79c155edf9b2d429d4736abee5acdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_35.png using Guid(0a79c155edf9b2d429d4736abee5acdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'ec477273140729d205a4d770dd87bdd6') in 0.0170555 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=35345103f14ea3ace5d7b06cd93bf9b1 DependenciesID=9304ce0be710ddcf4fdb2271303ea14a StaticDependenciesID=dffd323d719e2b650a6f6f09b572974a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_34.png
+  importAddress: Guid(319b8e66db3faa4438cf6982e9c89b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_34.png using Guid(319b8e66db3faa4438cf6982e9c89b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '924d17aae3975774feda93ad9f36a8af') in 0.0164213 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b16eeb3b577ed178bcbe8a959c821359 DependenciesID=3ac1841053581d407fb8ad9f006cbd68 StaticDependenciesID=e8bfe8251a083e6628518fb885e7b13c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_37.png
+  importAddress: Guid(1d6958e30e40a254dbe5a54c573eeb3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_37.png using Guid(1d6958e30e40a254dbe5a54c573eeb3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '023e4ba85e121b5ff4c4d7e827d39b29') in 0.0171373 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fec2bc09b736217c6587fe946ee840af DependenciesID=377475062c9223c3826e026a0a2ef051 StaticDependenciesID=889b236fbf12da281f726c58a0ee7a80 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.203352 seconds.
+  path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_42.png
+  importAddress: Guid(b266511438fae724f9d3ce6bd26583e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_42.png using Guid(b266511438fae724f9d3ce6bd26583e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'faa479fc97935177d21ad68f75012bde') in 0.0181204 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=226900731352e6f09f22f0f16da83fce DependenciesID=1d233c23bdab0865594e3b7116e98977 StaticDependenciesID=8b619422a39a1ee8ca2f2bcbe61c990e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_47.png
+  importAddress: Guid(1378a33cdd085d64c9da863d2484ff21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_47.png using Guid(1378a33cdd085d64c9da863d2484ff21) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'c171ef232b550edf63c4a2878cb832ea') in 0.0157551 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a848e49b0d04f0cd9aedf9ab2ac2aab3 DependenciesID=3b1e0b756c3ee10fee062c6d7b32b59b StaticDependenciesID=154f32d24649eb650fb9b0045fc447d2 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_55.png
+  importAddress: Guid(5e542d0126a2c7848b66bffc428905fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_55.png using Guid(5e542d0126a2c7848b66bffc428905fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'aab12a8da32018a771792f57c0ee9792') in 0.0162489 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14c16fa1959dddd381b2fb8b3eb10424 DependenciesID=8c30362521e00e6c923a9201ab0fcfa8 StaticDependenciesID=2683d4b6786e3179d464b31ca6f8ebe1 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_53.png
+  importAddress: Guid(c94b57b5a32a22d43ade66e09f6a4bd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_53.png using Guid(c94b57b5a32a22d43ade66e09f6a4bd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '025d4b7385107285a045be758827bab5') in 0.016277 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fe37a205a0f804feb01af44ca8c03a5b DependenciesID=9b8c1066ab424f9f82ae03ed4db409e5 StaticDependenciesID=3cacc4c0a574d54ba44670d045809474 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_60.png
+  importAddress: Guid(404fa8def46b1c447817e1ebdaa7144e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_60.png using Guid(404fa8def46b1c447817e1ebdaa7144e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'c51388b023fa42edfa761db7a2fc0cbb') in 0.0161857 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=df8a2ba0cc3fde71ab49cf4e5c2a56f9 DependenciesID=5eec174908d39da38df779b4b97b397e StaticDependenciesID=1c2b3a3f6708175e3db1a34fdf70862f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_56.png
+  importAddress: Guid(70f23eaf7d8ae9147aa542d20e93733b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_56.png using Guid(70f23eaf7d8ae9147aa542d20e93733b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'a2bbd129295f0300bb58a609e66a7342') in 0.0159592 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cf2689b5eedb9e2e2a7e11d09e428b06 DependenciesID=7780d0a7f056840fa3c1f5b5c64d54d2 StaticDependenciesID=ba15b5ec5224fc007ef02cb5d4a401c4 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_57.png
+  importAddress: Guid(e138166e7a7c70f49943be7edda35d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_57.png using Guid(e138166e7a7c70f49943be7edda35d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'ac230fd4d72c0fbbc869c389b32725a6') in 0.0164219 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c753f3eee4381c2bfa2f5dbe2b19b000 DependenciesID=dea43585e1548176f49ac349dc3800d9 StaticDependenciesID=0c14ea5cef94ca83d19eafa2c04be222 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_49.png
+  importAddress: Guid(3f7c3687170b90e4a8d2ee6b142670f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_49.png using Guid(3f7c3687170b90e4a8d2ee6b142670f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'ba8ed71faf252f82154980455c09a13f') in 0.0188355 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0d9f3f98dbffa56fe4112bc8a2b17f08 DependenciesID=6dfb936c38ef86b7b353e62d842fdff1 StaticDependenciesID=7cd65b4c10e03bf32311a9824ca5ce93 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_45.png
+  importAddress: Guid(b9960364038cbfa4aa49d7b2032d3110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_45.png using Guid(b9960364038cbfa4aa49d7b2032d3110) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '7b97dd8e2f9584a0ec3ffd9b2fba7a98') in 0.0157196 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1923a9b32853b747a43b41b6c4ad499a DependenciesID=f2c27d561b59ae20766c1b88c26df9e4 StaticDependenciesID=6ee1d206541932c85dc8d716b4f730bd 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_46.png
+  importAddress: Guid(8ecbbcae4cc747a4abbc4adce795d25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_46.png using Guid(8ecbbcae4cc747a4abbc4adce795d25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '57e1f29028eef809519471a1d8766308') in 0.0159718 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0e6929f2bf96a65c83d3ef93e5df70c7 DependenciesID=e549c62ce9d574d1929bcee2042b04c6 StaticDependenciesID=d18e01c4246df8c47d65af9daeaa1f88 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.401143 seconds.
+  path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_63.png
+  importAddress: Guid(4a11d65ce13d5f542a0ff136cc2f3fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_63.png using Guid(4a11d65ce13d5f542a0ff136cc2f3fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '1a8c2b7d6ef467d59d08d7ee5e3d26d2') in 0.0167198 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e5ccd7f7b469a86dcb805cc4511ecbe8 DependenciesID=e3bd7ae0b4046a0fafce89f8fb0d6388 StaticDependenciesID=f45b6ebb0165830a7acba9f44894d5a0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.427458 seconds.
+  path: Assets/PostProcessing/Textures
+  importAddress: Guid(e15c29a7abfa52743a8cb7714389c3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PostProcessing/Textures using Guid(e15c29a7abfa52743a8cb7714389c3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '30dcf5fcf2afcaf1c3ba0aa9ef78ca65') in 0.0006681 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=30e1640ad09d8780740292d2c9b5aa46 DependenciesID=e016e580063a5452061383b5caa6b5ec StaticDependenciesID=13fcf20c43ca1a9d8781a6877bf04bdf 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.519442 seconds.
+  path: Assets/PostProcessing/Textures/Lens Dirt
+  importAddress: Guid(705e7922061713741885ae52a3e0bea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PostProcessing/Textures/Lens Dirt using Guid(705e7922061713741885ae52a3e0bea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'f7b06e2f6201998e86fbda1111176dff') in 0.0006526 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ba2eb49bec461021f8e87679c23bbf3c DependenciesID=109185673501ef6ebaadee3a1d14f9b2 StaticDependenciesID=192e1fa93887fe776185fe653babbdc8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.049260 seconds.
+  path: Assets/PostProcessing/Textures/Lens Dirt/LensDirt00.png
+  importAddress: Guid(69e847bbff1cf5449a4ee0bbd045dbc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PostProcessing/Textures/Lens Dirt/LensDirt00.png using Guid(69e847bbff1cf5449a4ee0bbd045dbc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '567ff78277a45582df439810e5cd32a1') in 0.0209848 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a3f83cf1ad38df689abb792185069818 DependenciesID=6020113fb4b2ef1ee1c53fb23b366fdc StaticDependenciesID=df7ddd665be5ff2d4c7fbed282128110 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/PostProcessing/Textures/Lens Dirt/LensDirt03.png
+  importAddress: Guid(7a051dbda2d7bc447bee412427cd311e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PostProcessing/Textures/Lens Dirt/LensDirt03.png using Guid(7a051dbda2d7bc447bee412427cd311e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'bb19d1625b0eb8c10e797b02d9f0014f') in 0.0183147 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=eb0a7e864652c0951bb3dda86d563097 DependenciesID=bf61e744a98cbd6764ad8b02a1c67c04 StaticDependenciesID=6c4f45b85c91118bb5b2440695d11233 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.987763 seconds.
+  path: Assets/PostProcessing/Textures/Spectral LUTs
+  importAddress: Guid(67d9249960fda4c41b0a23a65573a8a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PostProcessing/Textures/Spectral LUTs using Guid(67d9249960fda4c41b0a23a65573a8a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '701d7aa54479452b7b66f6dfb34bd190') in 0.0005917 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d74703fbfa184fbc58c0f4dec5b3fc10 DependenciesID=7a13f7cf0c23c134667ffa222abc3532 StaticDependenciesID=4d8a9631ee187cd02a32ae4601fe8f2e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.072692 seconds.
+  path: Assets/PostProcessing/Textures/Spectral LUTs/SpectralLut_BlueRed.tga
+  importAddress: Guid(318cbcd94840f1d48aca4d86234dc2e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PostProcessing/Textures/Spectral LUTs/SpectralLut_BlueRed.tga using Guid(318cbcd94840f1d48aca4d86234dc2e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'b22eeb485caa18cda3036bc6b5c0653b') in 0.0202909 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c1d81f2f6066d1e5483c8f1079ba72fc DependenciesID=4f831fe9d3f367727a929a2e962ab9fd StaticDependenciesID=9825eef10f7e5c7943278e57b04139b5 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.796826 seconds.
+  path: Assets/PostProcessing/Utilities/CustomMotionTexture
+  importAddress: Guid(5b271143f6e834d6bb7a4309f2c781f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PostProcessing/Utilities/CustomMotionTexture using Guid(5b271143f6e834d6bb7a4309f2c781f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '8fa3d77e03aef390dc1f964b014a7a97') in 0.0007436 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=01cb6bad16348da42d176109a042f27c DependenciesID=c18ee06e48c71155399399ead7b41973 StaticDependenciesID=ee5031022fcf389fab1d405370478e28 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.051622 seconds.
+  path: Assets/PostProcessing/Utilities/CustomMotionTexture/CustomMotionVectorDebugProfile.asset
+  importAddress: Guid(d982e879ff67b4d3fb6522d08c3cd5af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PostProcessing/Utilities/CustomMotionTexture/CustomMotionVectorDebugProfile.asset using Guid(d982e879ff67b4d3fb6522d08c3cd5af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '55d4ebbd049c42cd70e9e2f3b9d03486') in 0.0044452 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1c4c4fd376001ff55e2fd814be2d9429 DependenciesID=5ced41c8a603b54d917bfa5b609cbb9c StaticDependenciesID=29f40ff66bc93754b81cb9c435fd0e57 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.204481 seconds.
+  path: Assets/PostProcessing/Utilities/CustomMotionTexture/ExampleScene.unity
+  importAddress: Guid(ed3a9f41209f84f6db99e07013da9628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PostProcessing/Utilities/CustomMotionTexture/ExampleScene.unity using Guid(ed3a9f41209f84f6db99e07013da9628) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '86c26b472edd84fb4b51ddb32ccf7446') in 0.0006346 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e274e4483799bea8354a036b5053f2e2 DependenciesID=853e0956536a4c6705f30140cf9f7d5e StaticDependenciesID=28a4c4ba7a5168f723bad6e0bda6c8aa 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Native extension for LinuxStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Failed to load: C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
+Native extension for VisionOS target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.302 seconds
+Domain Reload Profiling: 549ms
+	BeginReloadAssembly (158ms)
+		DisableScriptedObjects (6ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (19ms)
+		LoadAssemblies (89ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (3ms)
+			BuildScriptInfoCaches (4ms)
+	FinalizeReload (302ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			BeforeProcessingInitializeOnLoad (70ms)
+			ProcessInitializeOnLoadAttributes (77ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (5ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 150 unused Assets / (251.6 KB). Loaded Objects now: 841.
+Memory consumption went from 76.9 MB to 76.7 MB.
+Total: 3.020500 ms (FindLiveObjects: 0.070200 ms CreateObjectMapping: 0.007600 ms MarkObjects: 2.848900 ms  DeleteObjects: 0.092400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 21.944745 seconds.
+  path: Assets/PostProcessing/Utilities/CustomMotionTexture/ExampleWheelController.cs
+  importAddress: Guid(840c928746809454cb5b9309b640dbd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PostProcessing/Utilities/CustomMotionTexture/ExampleWheelController.cs using Guid(840c928746809454cb5b9309b640dbd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '2a14339900711e0495710ef4421c1379') in 0.0016937 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a49931e110c6c817cc3f3bf6c3d46ae7 DependenciesID=37a2dbabf8dae590ad50128eec33e0b7 StaticDependenciesID=f965756c608a95f30c92dec669a945a1 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.317969 seconds.
+  path: Assets/PostProcessing/Utilities/CustomMotionTexture/Textures
+  importAddress: Guid(92c42dce939f844cea2248583e06bd55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PostProcessing/Utilities/CustomMotionTexture/Textures using Guid(92c42dce939f844cea2248583e06bd55) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '5d2c714d53ba8e4b528fd11c2653255c') in 0.0005529 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=88e7ac3887976ae7077792727a825e9e DependenciesID=e0f5a2d25aecfd31748790aa1d892792 StaticDependenciesID=e4b34b506807405e13af32f59e7da042 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.612346 seconds.
+  path: Assets/PostProcessing/Utilities/CustomMotionTexture/Shaders
+  importAddress: Guid(8e565c240745c49628f96f0573adfa76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PostProcessing/Utilities/CustomMotionTexture/Shaders using Guid(8e565c240745c49628f96f0573adfa76) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '8e4bd50ee4f1bd433a7d54a3abe764b4') in 0.0006499 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ef1b958b81da12324212a8931d299274 DependenciesID=f3f052e849de1364e1f358b1c7ba8d1d StaticDependenciesID=fa11e11ecdd9bff1e9aa8863a2036d87 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.526422 seconds.
+  path: Assets/PostProcessing/Utilities/CustomMotionTexture/Models
+  importAddress: Guid(ef5ce588de3614b39b5ba7b0613cbe43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PostProcessing/Utilities/CustomMotionTexture/Models using Guid(ef5ce588de3614b39b5ba7b0613cbe43) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '4f173a27665ed80315a27f4a09f8076c') in 0.0005367 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=63863e5d9b8d989f0fcfa838b83e4c05 DependenciesID=d99aea10cf63923113a830f567eef685 StaticDependenciesID=9b9893ddf0681bd8fbfed001a06412ee 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.066011 seconds.
+  path: Assets/PostProcessing/Utilities/CustomMotionTexture/Models/WheelMovecs.FBX
+  importAddress: Guid(c4abfbff3b9d442f4b435849d2d2124c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PostProcessing/Utilities/CustomMotionTexture/Models/WheelMovecs.FBX using Guid(c4abfbff3b9d442f4b435849d2d2124c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'dcc2a38b2d782dc492b4482474dcc067') in 0.3582539 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=627bca614670d0d8f869496aee25e58a DependenciesID=eee1feeeed2c6bf1396da030dbd5406b StaticDependenciesID=a49af02d1a55a6ad6774922d3da9166f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.767619 seconds.
+  path: Assets/PostProcessing/Utilities/CustomMotionTexture/ExampleScene
+  importAddress: Guid(8df855e140278c3418eebb6fb633d420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PostProcessing/Utilities/CustomMotionTexture/ExampleScene using Guid(8df855e140278c3418eebb6fb633d420) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '5c7c876bf8fc84c68cedb35329ea7cac') in 0.0007315 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f00ad0b185889f71c60b9dfcb352c7d7 DependenciesID=03dc167255fc99bcbd8b9e68a23c8977 StaticDependenciesID=56f4b89a3e8f1767aada8756209ab319 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.059010 seconds.
+  path: Assets/PostProcessing/Utilities/CustomMotionTexture/ExampleScene/LightingData.asset
+  importAddress: Guid(cfa12f030ead3714080627ff65c65ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PostProcessing/Utilities/CustomMotionTexture/ExampleScene/LightingData.asset using Guid(cfa12f030ead3714080627ff65c65ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'df1dc4adc5f1c413a38cd0762f8b889f') in 0.0014743 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=012c1cc14167e12b384e1c3bcbe509a9 DependenciesID=5f9f9e3ac9ed10f4f94e30af3e12b24e StaticDependenciesID=d93fdc31f02326250759256fc69e0c38 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 61.708033 seconds.
+  path: Assets/Graphics/MetaMat.mat
+  importAddress: Guid(d5c0106e08a52ab4c89dabe7772d546e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/MetaMat.mat using Guid(d5c0106e08a52ab4c89dabe7772d546e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '32b450ab3dc6446a96176636f3352e82') in 0.0373557 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=afed48018cb1aad5d44a04bde79aab44 DependenciesID=82aa236d9d9c35d432b640002878f326 StaticDependenciesID=b0a4042e243cd3478b76bd468997d6db 
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 1
+
